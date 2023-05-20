@@ -68,7 +68,7 @@ Expense App is a mobile web application where you can manage your budget: you ha
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Expense App](https://expenseapp-h0g5.onrender.com)
+[Expense App](https://expense-app-t0dz.onrender.com)
 [Expense App Video Demo](https://www.loom.com/share/08cbc18e6249406780a60e45fbb34168)
 
 <h2  align="center">UML Diagram<h2>
