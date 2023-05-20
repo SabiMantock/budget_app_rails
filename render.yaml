@@ -1,7 +1,7 @@
 databases:
   - name: expense-app
-    databaseName: expense_app
-    user: expense_app_user
+    databaseName: expense_app_quzu
+    user: expense_app_quzu_user
 
 services:
   - type: web
