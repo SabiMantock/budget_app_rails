@@ -1,0 +1,18 @@
+databases:
+  - name: expense-app
+    databaseName: expense-app
+    user: expense_app_user
+
+services:
+  - type: web
+    name: expense-app
+    env: ruby
+    buildCommand: './bin/render-build.sh'
+    startCommand: 'bundle exec puma -C config/puma.rb'
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: expense-app
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
