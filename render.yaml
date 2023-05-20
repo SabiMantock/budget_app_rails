@@ -1,6 +1,6 @@
 databases:
   - name: expense-app
-    databaseName: expense-app
+    databaseName: expense_app
     user: expense_app_user
 
 services:
