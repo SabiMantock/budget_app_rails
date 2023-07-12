@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # get "/home/index"
   resources :groups do
-    resources :expenses
+    resources :expenses, only: [:index, :new, :create]
   end
   devise_for :users
   devise_scope :user do
